@@ -13,6 +13,7 @@
     "deploy:prod": "cd serverless && vercel --prod"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.3",
     "@vueuse/core": "^4.1.1",
     "@vueuse/head": "^0.3.1",
     "nprogress": "^0.2.0",
@@ -53,5 +54,8 @@
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": "off"
     }
-  }
+  },
+  "eslintIgnore":[
+    "./src/pages/index.vue"
+  ]
 }

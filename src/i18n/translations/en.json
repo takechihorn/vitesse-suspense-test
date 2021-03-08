@@ -5,7 +5,8 @@
     "go": "GO",
     "home": "Home",
     "toggle_dark": "Toggle dark mode",
-    "toggle_langs": "Change languages"
+    "toggle_langs": "Change languages",
+    "user":"USER"
   },
   "intro": {
     "desc": "Opinionated Vite Starter Template",
