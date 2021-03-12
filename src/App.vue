@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head'
-
 const title = 'Vitesse SSR'
 const description = 'Opinionated SSR Vite Starter Template'
 
@@ -23,5 +22,7 @@ useHead({
 </script>
 
 <template>
-  <router-view />
+  <div>
+    <router-view />
+  </div>
 </template>
